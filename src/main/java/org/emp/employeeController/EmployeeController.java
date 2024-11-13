@@ -1,7 +1,10 @@
 package org.emp.employeeController;
 
 
+import lombok.RequiredArgsConstructor;
 import org.emp.dto.Employee;
+import org.emp.entity.EmployeeEntity;
+import org.emp.service.EmployeeService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -9,17 +12,17 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/emp-controller")
+@RequiredArgsConstructor
 public class EmployeeController {
-
-    List<Employee> empList=new ArrayList();
+    final EmployeeService service;
 
     @PostMapping("/add-employee")
     public void addEmployee(@RequestBody Employee employee){
-        empList.add(employee);
+        service.addEmployee(employee);
     }
 
     @GetMapping("/get-all")
-    public List<Employee> getAll(){
-        return empList;
+    public List<EmployeeEntity> getAll(){
+       return service.getAll();
     }
 }

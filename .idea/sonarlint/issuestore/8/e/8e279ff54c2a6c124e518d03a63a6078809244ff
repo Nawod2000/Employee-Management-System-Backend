@@ -1,4 +1,5 @@
 
-r
-java:S3740"/Provide the parametrized type for this generic.(Ìóµø8è¸ô©²2J$bbb47c28-2f3b-4cad-ac82-6fc830b55989
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Àö»8‘¹ô©²2J$be81587d-fbe8-4efb-8334-bff6ce695034
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Àö»8ÀÛá²²2J$da5f8513-34bc-4fc3-be70-7ea8d695f16e
+M
+java:S1128
+"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ë‹þ´²2
