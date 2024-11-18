@@ -1,4 +1,4 @@
-package org.emp.employeeController;
+package org.emp.Controllers;
 
 
 import lombok.RequiredArgsConstructor;
@@ -7,7 +7,6 @@ import org.emp.entity.EmployeeEntity;
 import org.emp.service.EmployeeService;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -22,7 +21,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/get-all")
-    public List<EmployeeEntity> getAll(){
+    public List<Employee> getAll(){
        return service.getAll();
     }
 }
