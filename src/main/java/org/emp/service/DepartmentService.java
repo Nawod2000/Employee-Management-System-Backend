@@ -8,4 +8,6 @@ public interface DepartmentService {
     void addDepartment(Department department);
 
     List<Department> getAllDepartment();
+
+    boolean deleteByDepartmentId(Long id);
 }

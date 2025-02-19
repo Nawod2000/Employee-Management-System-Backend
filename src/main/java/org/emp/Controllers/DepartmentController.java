@@ -23,4 +23,9 @@ public class DepartmentController {
     public List<Department> getAllDepartment(){
         return service.getAllDepartment();
     }
+
+    @DeleteMapping("/delete-by-department/{id}")
+    public boolean deleteByDepartmentId(@PathVariable Long id){
+        return service.deleteByDepartmentId(id);
+    }
 }
