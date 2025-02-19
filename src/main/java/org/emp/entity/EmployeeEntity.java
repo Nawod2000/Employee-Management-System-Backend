@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.emp.dto.Role;
 
 @Data
 @AllArgsConstructor
@@ -20,5 +21,8 @@ public class EmployeeEntity {
     private String lastName;
     private String email;
     private String department;
-    private String role;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "role_id" , referencedColumnName = "id")
+    private RoleEntity role;
 }

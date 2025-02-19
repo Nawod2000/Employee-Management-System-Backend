@@ -15,5 +15,5 @@ public class Employee {
     private String lastName;
     private String email;
     private String department;
-    private String role;
+    private Role role;
 }
