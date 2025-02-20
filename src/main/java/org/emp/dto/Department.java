@@ -14,5 +14,7 @@ public class Department {
 
     private Long id;
     private String name;
-    private String department;
+    private String discription;
+
+    private Employee employee;
 }
