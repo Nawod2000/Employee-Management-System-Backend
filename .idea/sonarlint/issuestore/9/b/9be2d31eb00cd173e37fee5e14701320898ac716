@@ -1,0 +1,7 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8²Ñ•˜Ò2J$cf6010d0-b7ad-4229-8e3a-25b91c29d627
+¥
+java:S3305"]Inject this field value directly into "authenticationProvider", the only method that uses it.(ÙÍ•¯üÿÿÿÿ8¢½—˜Ò2J$fcc02336-5f63-41c9-8c8f-f0fd58266293
+ƒ
+java:S1874"";Remove this use of "NoOpPasswordEncoder"; it is deprecated.(¨¼‹ªüÿÿÿÿ8þ‡•˜Ò2J$09667111-ecc5-4bfe-9056-99fff1c915bc
