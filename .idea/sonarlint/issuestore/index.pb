@@ -768,3 +768,5 @@ Q.idea/sonarlint/securityhotspotstore/2/7/27ec035153f9546b1ba172d5b9d8bb0f74d3f3
 Q.idea/sonarlint/securityhotspotstore/e/0/e0b944c37999a63ee67244b72db8d53742862bef,1\1\11af89e015464b7dca0adebe361bb10eedf321e6
 w
 G.idea/sonarlint/issuestore/3/2/326e802eebb6d34d718bca61b6d5e0b296701288,2\e\2e6c4bd75da10118431029fc40f08fd99f31aaaa
+`
+0src/main/java/org/emp/config/SecurityConfig.java,9\b\9be2d31eb00cd173e37fee5e14701320898ac716
