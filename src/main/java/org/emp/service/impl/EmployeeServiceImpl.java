@@ -37,7 +37,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public void deleteEmployeeById(Long id) {
+    public void deleteEmployeeById(String id) {
         if (repository.existsById(id)){
             repository.deleteById(id);
         }
@@ -51,7 +51,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public Employee findById(Long id) {
+    public Employee findById(String id) {
         if (repository.findById(id).isPresent()){
             Optional<EmployeeEntity> byId = repository.findById(id);
             return new ObjectMapper().convertValue(byId.get(), Employee.class);
